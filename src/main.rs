@@ -36,4 +36,13 @@ fn main() {
 
     io::stdin().read_line(&mut input).expect("failed to read line");
     println!("{}", input);
+
+    user_input()
+}
+
+fn user_input() {
+    let mut input = String::new();
+
+    io::stdin().read_line(&mut input).expect("failed to read line");
+    println!("{}", input);
 }
